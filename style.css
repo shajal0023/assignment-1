@@ -1,7 +1,118 @@
-p{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=IBM+Plex+Sans:wght@200;400&display=swap');
+
+
+body{
+margin: 0px;
+padding: 0px;
+font-family: 'Barlow', sans-serif;
 }
 
-p{
-    color: green;
+
+.first_section{
+	display: flex;
 }
+
+
+h2{
+	font-size: 50px;
+}
+
+.imag{
+	width: 40%;
+  
+
+}
+
+.header_text{
+	padding-left: 20px;
+	
+	border-left: 10px solid orange;
+}
+
+.imag img{
+	width: 80%;
+}
+
+.content{
+	width: 60%;
+	
+  padding-left: 40px;
+}
+
+
+.default_button{
+	padding: 15px 20px;
+	font-size: 20px;
+	width: 180px;
+	background-color: orange;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	text-decoration: none;
+	border: 1px solid #fff;
+	color: #fff;
+	
+}
+
+
+
+.second_section{
+
+}
+
+
+h1{
+	text-align: center;
+}
+
+.cards{
+	width: 85%;
+	margin: auto;
+
+}
+
+
+.defult_card{
+
+  width: 30%;
+display: inline-block;
+margin-right: 20px;
+padding: 10px 0px 20px 5px;
+border-radius: 5px;
+}
+
+
+.defult_card img{
+	width: 80px;
+}
+
+
+.first_card{
+	background-color: #d624cd;
+}
+
+.second_card{
+	background-color: #3685b3;
+}
+
+
+.third_card{
+	background-color: pink;
+}
+
+
+
+.third_sec{
+	width: 85%;
+	margin: auto;
+	display: flex;
+}
+
+.footer{
+	text-align: center;
+	background-color: orange;
+	color: #fff;
+	padding: 10px;
+	opacity: 0.8;
+}
+
